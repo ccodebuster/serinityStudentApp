@@ -17,6 +17,7 @@ public class TestBase {
         RestAssured.baseURI = propertyReader.getProperty("baseUrl");
         RestAssured.port = Integer.parseInt(propertyReader.getProperty("port"));
         RestAssured.basePath = Path.STUDENT;
+        //http://localhost:8080/student
     }
 
 }
