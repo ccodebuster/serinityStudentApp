@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.studentapp.studentinfo.StudentCURDTest" time="1.316" tests="4" errors="0" skipped="0" failures="0">
+<testsuite name="com.studentapp.studentinfo.TagsTest" time="0.053" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2021.2.2"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -64,8 +64,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="test001" classname="com.studentapp.studentinfo.StudentCURDTest" time="0.295"/>
-  <testcase name="test002" classname="com.studentapp.studentinfo.StudentCURDTest" time="0.801"/>
-  <testcase name="test003" classname="com.studentapp.studentinfo.StudentCURDTest" time="0.161"/>
-  <testcase name="test004" classname="com.studentapp.studentinfo.StudentCURDTest" time="0.059"/>
+  <testcase name="invalidMethod" classname="com.studentapp.studentinfo.TagsTest" time="0.053"/>
 </testsuite>

@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8"/>
-    <title>Delete student info by StudentID and verify its deleted</title>
+    <title>provide 405 status code with incorrect method</title>
     <link rel="shortcut icon" href="favicon.ico">
 
 <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
@@ -40,7 +40,7 @@
         <span class="breadcrumbs">
             <a href="index.html" class="breadcrumbs">Home</a>
 
-            > Delete student info by StudentID and verify its deleted
+            > provide 405 status code with incorrect method
         </span>
         </div>
         <div class="rightbg"></div>
@@ -73,7 +73,7 @@
                             <div>
                                 <h3 class="discreet-story-header">
                                     <i class="fa fa-2x fa-comments-o"></i>
-                                    <span class="story-header-title">Student CURD Test With Steps</span>
+                                    <span class="story-header-title">Tags Test</span>
                                 </h3>
 
                                 <div class="discreet-requirement-narrative-title">
@@ -83,6 +83,13 @@
 
                         </td>
                         <td valign="top">
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink"
+                                                                      href="c1f55b64ee4abd439bd717e3251455939519c7733e19f0de7a68972534d03306.html">NEGATIVE
+                                    (studentfeature)</a>
+                                </span>
+                            </p>
                         </td>
                     </tr>
                 </table>
@@ -94,7 +101,7 @@
                             <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
                             <span class="test-case-title">
                                     <span class="success-color">
-                                    Delete Student Info By StudentID And Verify Its Deleted
+                                    Provide 405 Status Code With Incorrect Method
                                         <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -130,47 +137,22 @@
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         <a name="0"/>
-                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
-                               style="display:block">
-                                <i class="fa fa-plus-square-o imgstepSection0 success-icon"
-                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
-                            </a>
+                            <span style="margin-left: 20px; margin-right: 5px;"
+                                  class="top-level-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
-                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
-                               style="display:block;">
-                            <span class="top-level-step">deleteing student information with studentId:117</span>
-                            </a>
-
-                        </div>
-                    </td>
-                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">0.03s</span></td>
-                </tr>
-                    <tr>
-                    <td colspan="5">
-                    <table id="stepSection0" style="display:none; width:100%">
-
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">DELETE http://localhost:8080/student/117</span>
+                            <span class="top-level-step">POST http://localhost:8080/student/list</span>
 
                                 <span class="rest-query">
                 <span>
                     <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
-                            data-target="#restModal-2">
+                            data-target="#restModal-1">
                         REST Query
                     </button>
                 </span>
                 <!-- Modal -->
-                <div class="modal fade" id="restModal-2" tabindex="-1" role="dialog"
+                <div class="modal fade" id="restModal-1" tabindex="-1" role="dialog"
                      aria-labelledby="restModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
@@ -179,23 +161,23 @@
                                         aria-label="Close"><span aria-hidden="true">&times;</span>
                                 </button>
                                 <h4 class="modal-title" id="restModalLabel">
-                                DELETE http://localhost:8080/student/117
+                                POST http://localhost:8080/student/list
                                 </h4>
                             </div>
                             <div class="modal-body">
-                                    <p>Status code: 204</p>
+                                    <p>Status code: 405</p>
                                     <p>Content Type: null</p>
                                     <h5>Request Headers</h5>
-                                    <pre>Accept=*/*</pre>
+                                    <pre>Accept=*/*<br>Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1</pre>
                                     <h5>Content Body</h5>
                                     <pre></pre>
                                     <h5>Request Cookies</h5>
                                     <pre></pre>
                                     <h5>Response Headers</h5>
-                                    <pre>Date: Sun, 09 Oct 2022 09:52:16 GMT</pre>
+                                    <pre>Allow: PUT, DELETE, GET, PATCH<br>Content-Type: application/json;charset=UTF-8<br>Transfer-Encoding: chunked<br>Date: Sun, 09 Oct 2022 09:52:16 GMT</pre>
                                 <h5>Response Body</h5>
                                     <pre>
-                                        
+                                        {<br>    &quot;timestamp&quot;: 1665309136867,<br>    &quot;status&quot;: 405,<br>    &quot;error&quot;: &quot;Method Not Allowed&quot;,<br>    &quot;exception&quot;: &quot;org.springframework.web.HttpRequestMethodNotSupportedException&quot;,<br>    &quot;message&quot;: &quot;Request method 'POST' not supported&quot;,<br>    &quot;path&quot;: &quot;/student/list&quot;<br>}
                                     </pre>
                                     <h5>Response Cookies</h5>
                                     <pre></pre>
@@ -212,109 +194,13 @@
 
                         </div>
                     </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0s</span></td>
-                </tr>
-
-                    </table>
-                    </td>
-                    <tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        <a name="1"/>
-                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
-                               style="display:block">
-                                <i class="fa fa-plus-square-o imgstepSection1 success-icon"
-                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
-                            </a>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
-                               style="display:block;">
-                            <span class="top-level-step">getting student info By studentId:117</span>
-                            </a>
-
-                        </div>
-                    </td>
                     <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">0.04s</span></td>
+                    <td width="100"><span class="top-level-step">0s</span></td>
                 </tr>
-                    <tr>
-                    <td colspan="5">
-                    <table id="stepSection1" style="display:none; width:100%">
-
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">GET http://localhost:8080/student/117</span>
-
-                                <span class="rest-query">
-                <span>
-                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
-                            data-target="#restModal-4">
-                        REST Query
-                    </button>
-                </span>
-                <!-- Modal -->
-                <div class="modal fade" id="restModal-4" tabindex="-1" role="dialog"
-                     aria-labelledby="restModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal"
-                                        aria-label="Close"><span aria-hidden="true">&times;</span>
-                                </button>
-                                <h4 class="modal-title" id="restModalLabel">
-                                GET http://localhost:8080/student/117
-                                </h4>
-                            </div>
-                            <div class="modal-body">
-                                    <p>Status code: 404</p>
-                                    <p>Content Type: null</p>
-                                    <h5>Request Headers</h5>
-                                    <pre>Accept=*/*</pre>
-                                    <h5>Content Body</h5>
-                                    <pre></pre>
-                                    <h5>Request Cookies</h5>
-                                    <pre></pre>
-                                    <h5>Response Headers</h5>
-                                    <pre>Content-Type: application/json;charset=UTF-8<br>Transfer-Encoding: chunked<br>Date: Sun, 09 Oct 2022 09:52:16 GMT</pre>
-                                <h5>Response Body</h5>
-                                    <pre>
-                                        {<br>    &quot;error&quot;: &quot;Not Found!&quot;<br>}
-                                    </pre>
-                                    <h5>Response Cookies</h5>
-                                    <pre></pre>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">
-                                    Close
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                                </span>
-
-                        </div>
-                    </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0s</span></td>
-                </tr>
-
-                    </table>
-                    </td>
-                    <tr>
                 <tr class="test-SUCCESS">
                     <td colspan="2"></td>
                     <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>0.07s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>0.05s</em></span></td>
                 </tr>
 
             </table>

@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.studentapp.studentinfo.FirstSerenityTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 1, Errors: 1, Skipped: 3, Time elapsed: 8.969 sec <<< FAILURE! - in com.studentapp.studentinfo.FirstSerenityTest
-thisIsCompromised(com.studentapp.studentinfo.FirstSerenityTest)  Time elapsed: 0.012 sec  <<< ERROR!
+Tests run: 7, Failures: 1, Errors: 1, Skipped: 3, Time elapsed: 11.849 sec <<< FAILURE! - in com.studentapp.studentinfo.FirstSerenityTest
+thisIsCompromised(com.studentapp.studentinfo.FirstSerenityTest)  Time elapsed: 0.011 sec  <<< ERROR!
 java.io.FileNotFoundException: E:\file.txt (The system cannot find the path specified)
 	at java.io.FileInputStream.open0(Native Method)
 	at java.io.FileInputStream.open(FileInputStream.java:195)
@@ -10,7 +10,7 @@ java.io.FileNotFoundException: E:\file.txt (The system cannot find the path spec
 	at java.io.FileReader.<init>(FileReader.java:72)
 	at com.studentapp.studentinfo.FirstSerenityTest.thisIsCompromised(FirstSerenityTest.java:77)
 
-thisIsFailingTest(com.studentapp.studentinfo.FirstSerenityTest)  Time elapsed: 0.071 sec  <<< FAILURE!
+thisIsFailingTest(com.studentapp.studentinfo.FirstSerenityTest)  Time elapsed: 0.174 sec  <<< FAILURE!
 java.lang.AssertionError: 1 expectation failed.
 Expected status code <201> but was <200>.
 

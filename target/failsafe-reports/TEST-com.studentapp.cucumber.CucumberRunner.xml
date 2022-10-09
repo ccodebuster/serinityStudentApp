@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.studentapp.cucumber.CucumberRunner" time="0.017" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="2021.2.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="cucumber.options" value="--tag @SMOKE"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\HomeworkCB\serinityStudentApp"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\HomeworkCB\serinityStudentApp"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\bhave\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Git\cmd;C:\Program Files\Apache\apache-maven-3.8.5\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\nodejs\;C:\Users\bhave\AppData\Local\Microsoft\WindowsApps;C:\Users\bhave\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\bhave\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\bhave"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="bhave"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.2.2 clean verify -Dcucumber.options=--tag @SMOKE"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="initializationError" classname="com.studentapp.cucumber.CucumberRunner" time="0.017">
+    <error message="Unknown option: --tag" type="cucumber.runtime.CucumberException"><![CDATA[cucumber.runtime.CucumberException: Unknown option: --tag
+	at cucumber.runtime.RuntimeOptions.parse(RuntimeOptions.java:148)
+	at cucumber.runtime.RuntimeOptions.<init>(RuntimeOptions.java:89)
+	at cucumber.runtime.RuntimeOptions.<init>(RuntimeOptions.java:78)
+	at cucumber.runtime.RuntimeOptions.<init>(RuntimeOptions.java:70)
+	at cucumber.runtime.RuntimeOptionsFactory.create(RuntimeOptionsFactory.java:25)
+	at cucumber.api.junit.Cucumber.<init>(Cucumber.java:55)
+	at net.serenitybdd.cucumber.CucumberWithSerenity.<init>(CucumberWithSerenity.java:26)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:104)
+	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:26)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:59)
+	at org.junit.internal.requests.ClassRequest.getRunner(ClassRequest.java:33)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]></error>
+    <system-out><![CDATA[Usage: java cucumber.api.cli.Main [options] [[[FILE|DIR][:LINE[:LINE]*] ]+ | @FILE ]
+
+Options:
+
+  -g, --glue PATH                        Where glue code (step definitions, hooks
+                                         and plugins) are loaded from.
+  -p, --[add-]plugin PLUGIN[:PATH_OR_URL]
+                                         Register a plugin.
+                                         Built-in formatter PLUGIN types: junit,
+                                         html, pretty, progress, json, usage, rerun,
+                                         testng. Built-in summary PLUGIN types:
+                                         default_summary, null_summary. PLUGIN can
+                                         also be a fully qualified class name, allowing
+                                         registration of 3rd party plugins.
+                                         --add-plugin does not clobber plugins of that 
+                                         type defined from a different source.
+  -f, --format FORMAT[:PATH_OR_URL]      Deprecated. Use --plugin instead.
+  -t, --tags TAG_EXPRESSION              Only run scenarios tagged with tags matching
+                                         TAG_EXPRESSION.
+  -n, --name REGEXP                      Only run scenarios whose names match REGEXP.
+  -d, --[no-]-dry-run                    Skip execution of glue code.
+  -m, --[no-]-monochrome                 Don't colour terminal output.
+  -s, --[no-]-strict                     Treat undefined and pending steps as errors.
+      --snippets [underscore|camelcase]  Naming convention for generated snippets.
+                                         Defaults to underscore.
+  -v, --version                          Print version.
+  -h, --help                             You're looking at it.
+  --i18n LANG                            List keywords for in a particular language
+                                         Run with "--i18n help" to see all languages
+  --junit,OPTION[,OPTION]*               Pass the OPTION(s) to the JUnit module.
+                                         Use --junit,-h or --junit,--help to print the
+                                         options of the JUnit module.
+
+Feature path examples:
+  <path>                                 Load the files with the extension ".feature"
+                                         for the directory <path>
+                                         and its sub directories.
+  <path>/<name>.feature                  Load the feature file <path>/<name>.feature
+                                         from the file system.
+  classpath:<path>/<name>.feature        Load the feature file <path>/<name>.feature
+                                         from the classpath.
+  <path>/<name>.feature:3:9              Load the scenarios on line 3 and line 9 in
+                                         the file <path>/<name>.feature.
+  @<path>/<file>                         Parse <path>/<file> for feature paths generated
+                                         by the rerun formatter.
+
+Usage: java cucumber.api.cli.Main [options] [[[FILE|DIR][:LINE[:LINE]*] ]+ | @FILE ]
+
+Options:
+
+  -g, --glue PATH                        Where glue code (step definitions, hooks
+                                         and plugins) are loaded from.
+  -p, --[add-]plugin PLUGIN[:PATH_OR_URL]
+                                         Register a plugin.
+                                         Built-in formatter PLUGIN types: junit,
+                                         html, pretty, progress, json, usage, rerun,
+                                         testng. Built-in summary PLUGIN types:
+                                         default_summary, null_summary. PLUGIN can
+                                         also be a fully qualified class name, allowing
+                                         registration of 3rd party plugins.
+                                         --add-plugin does not clobber plugins of that 
+                                         type defined from a different source.
+  -f, --format FORMAT[:PATH_OR_URL]      Deprecated. Use --plugin instead.
+  -t, --tags TAG_EXPRESSION              Only run scenarios tagged with tags matching
+                                         TAG_EXPRESSION.
+  -n, --name REGEXP                      Only run scenarios whose names match REGEXP.
+  -d, --[no-]-dry-run                    Skip execution of glue code.
+  -m, --[no-]-monochrome                 Don't colour terminal output.
+  -s, --[no-]-strict                     Treat undefined and pending steps as errors.
+      --snippets [underscore|camelcase]  Naming convention for generated snippets.
+                                         Defaults to underscore.
+  -v, --version                          Print version.
+  -h, --help                             You're looking at it.
+  --i18n LANG                            List keywords for in a particular language
+                                         Run with "--i18n help" to see all languages
+  --junit,OPTION[,OPTION]*               Pass the OPTION(s) to the JUnit module.
+                                         Use --junit,-h or --junit,--help to print the
+                                         options of the JUnit module.
+
+Feature path examples:
+  <path>                                 Load the files with the extension ".feature"
+                                         for the directory <path>
+                                         and its sub directories.
+  <path>/<name>.feature                  Load the feature file <path>/<name>.feature
+                                         from the file system.
+  classpath:<path>/<name>.feature        Load the feature file <path>/<name>.feature
+                                         from the classpath.
+  <path>/<name>.feature:3:9              Load the scenarios on line 3 and line 9 in
+                                         the file <path>/<name>.feature.
+  @<path>/<file>                         Parse <path>/<file> for feature paths generated
+                                         by the rerun formatter.
+
+]]></system-out>
+  </testcase>
+</testsuite>

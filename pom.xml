@@ -92,6 +92,7 @@
         <version>2.18</version>
         <configuration>
           <includes>
+            <!-- DON'T FORGET TO CHANGE ME PLEASE -->
             <include>**/studentapp/**/*.java</include>
           </includes>
           <forkCount>4</forkCount>

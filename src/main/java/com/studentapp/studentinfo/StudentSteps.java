@@ -36,6 +36,7 @@ public class StudentSteps {
 
     @Step ("getting student info by firstName:{0}")
     public HashMap<String, Object> getStudentInfoByFirstName(String firstName){
+        //findAll{it.firstName=='bhavesh'}.get(0)
         String p1="findAll{it.firstName=='";
         String p2="'}.get(0)";
         return SerenityRest.given().log().all()
